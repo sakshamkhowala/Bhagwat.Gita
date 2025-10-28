@@ -1,0 +1,35 @@
+{
+  "chapterId": 1,
+  "verses": [
+    {
+      "id": 1,
+      "number": 1,
+      "textEnglish": "Dhritarashtra said: O Sanjaya, what did my sons and the sons of Pandu do when they gathered together, eager for battle, on the sacred field of Kurukshetra?",
+      "textHindi": "धृतराष्ट्र ने कहा: हे संजय, धर्मभूमि कुरुक्षेत्र में एकत्रित होकर युद्ध के इच्छुक मेरे और पाण्डु के पुत्रों ने क्या किया?"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "textEnglish": "Sanjaya said: At that time, upon seeing the army of the Pandavas arrayed in military formation, King Duryodhana approached his teacher Dronacharya and spoke the following words.",
+      "textHindi": "संजय ने कहा: उस समय राजा दुर्योधन ने व्यूहरचना में स्थित पाण्डवों की सेना को देखकर अपने गुरु द्रोणाचार्य के पास जाकर ये वचन कहे।"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "textEnglish": "O my teacher, behold the mighty army of the sons of Pandu, so expertly arrayed by your intelligent disciple, Dhrishtadyumna, the son of Drupada.",
+      "textHindi": "हे आचार्य! आपके बुद्धिमान शिष्य द्रुपद पुत्र धृष्टद्युम्न द्वारा व्यूहरचना में खड़ी की गई पाण्डु पुत्रों की इस विशाल सेना को देखिए।"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "textEnglish": "Here in this army are many heroic bowmen equal in fighting to Bhima and Arjuna: great fighters like Yuyudhana, Virata, and Drupada.",
+      "textHindi": "इस सेना में भीम और अर्जुन के समान युद्ध में कुशल अनेक वीर धनुर्धर हैं, जैसे युयुधान, विराट और द्रुपद जैसे महारथी।"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "textEnglish": "There are also great, heroic, powerful fighters like Dhrishtaketu, Chekitana, Kashiraja, Purujit, Kuntibhoja, and Shaibya.",
+      "textHindi": "धृष्टकेतु, चेकितान, काशीराज, पुरुजित, कुन्तिभोज और शैब्य ये सभी महावीर हैं।"
+    }
+  ]
+}

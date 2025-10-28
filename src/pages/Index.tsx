@@ -1,13 +1,62 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import Header from '@/components/Header';
+import HeroSection from '@/components/HeroSection';
+import ChapterList from '@/components/ChapterList';
+import ChapterView from '@/components/ChapterView';
+import BookmarkPanel from '@/components/BookmarkPanel';
+import { ThemeProvider } from '@/contexts/ThemeContext';
+import { LanguageProvider } from '@/contexts/LanguageContext';
+import { BookmarkProvider } from '@/contexts/BookmarkContext';
+
+type View = 'home' | 'chapter';
 
 const Index = () => {
+  const [view, setView] = useState<View>('home');
+  const [selectedChapter, setSelectedChapter] = useState<number | null>(null);
+  const [bookmarkPanelOpen, setBookmarkPanelOpen] = useState(false);
+
+  const handleChapterSelect = (chapterId: number) => {
+    setSelectedChapter(chapterId);
+    setView('chapter');
+  };
+
+  const handleBack = () => {
+    setView('home');
+    setSelectedChapter(null);
+  };
+
+  const handleBookmarkNavigate = (chapterId: number, verseId: number) => {
+    setSelectedChapter(chapterId);
+    setView('chapter');
+  };
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <ThemeProvider>
+      <LanguageProvider>
+        <BookmarkProvider>
+          <div className="min-h-screen bg-background">
+            <Header onBookmarksClick={() => setBookmarkPanelOpen(true)} />
+            
+            {view === 'home' ? (
+              <>
+                <HeroSection />
+                <ChapterList onChapterSelect={handleChapterSelect} />
+              </>
+            ) : (
+              selectedChapter && (
+                <ChapterView chapterId={selectedChapter} onBack={handleBack} />
+              )
+            )}
+
+            <BookmarkPanel
+              isOpen={bookmarkPanelOpen}
+              onClose={() => setBookmarkPanelOpen(false)}
+              onNavigate={handleBookmarkNavigate}
+            />
+          </div>
+        </BookmarkProvider>
+      </LanguageProvider>
+    </ThemeProvider>
   );
 };
 

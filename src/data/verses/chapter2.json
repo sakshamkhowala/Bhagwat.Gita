@@ -1,0 +1,35 @@
+{
+  "chapterId": 2,
+  "verses": [
+    {
+      "id": 1,
+      "number": 1,
+      "textEnglish": "Sanjaya said: Seeing Arjuna overwhelmed with pity, his eyes filled with tears and his mind full of sorrow, Lord Krishna spoke the following words.",
+      "textHindi": "संजय ने कहा: इस प्रकार करुणा से व्याकुल, अश्रुपूर्ण नेत्रों वाले और शोक से संतप्त अर्जुन के प्रति भगवान श्रीकृष्ण ने ये वचन कहे।"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "textEnglish": "The Supreme Lord said: My dear Arjuna, how have these impurities come upon you? They are not at all befitting a man who knows the value of life. They lead not to higher planets but to infamy.",
+      "textHindi": "श्री भगवान ने कहा: हे अर्जुन, तुम्हें इस असमय में यह मोह कैसे प्राप्त हुआ? यह न तो श्रेष्ठ पुरुषों का आचरण है, न स्वर्ग को देने वाला है और न कीर्ति को देने वाला है।"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "textEnglish": "O son of Pritha, do not yield to this degrading impotence. It does not become you. Give up such petty weakness of heart and arise, O chastiser of the enemy.",
+      "textHindi": "हे पार्थ! इस कायरता को मत प्राप्त करो, यह तुम्हारे योग्य नहीं है। हे शत्रुओं को दण्ड देने वाले! हृदय की तुच्छ दुर्बलता को त्यागकर युद्ध के लिए खड़े हो जाओ।"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "textEnglish": "Arjuna said: O killer of Madhu, how can I counterattack with arrows in battle men like Bhishma and Drona, who are worthy of my worship?",
+      "textHindi": "अर्जुन ने कहा: हे मधुसूदन! मैं रणभूमि में बाणों से भीष्म और द्रोण के विरुद्ध कैसे लड़ सकता हूँ, जो पूजा के योग्य हैं?"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "textEnglish": "It would be better to live in this world by begging than to live at the cost of the lives of great souls who are my teachers. Even though they are avaricious, they are nonetheless superiors. If they are killed, our spoils will be tainted with blood.",
+      "textHindi": "इन महानुभाव गुरुजनों को न मारकर भीख माँगकर खाना भी इस संसार में अच्छा है, क्योंकि गुरुजनों को मारकर भी इस लोक में रक्त से सने हुए भोग ही भोगूँगा।"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "nameEnglish": "Arjuna Vishada Yoga",
+    "nameHindi": "अर्जुन विषाद योग",
+    "translationEnglish": "The Yoga of Arjuna's Dejection",
+    "translationHindi": "अर्जुन का विषाद योग",
+    "verseCount": 47,
+    "summary": "Arjuna's confusion and moral dilemma on the battlefield of Kurukshetra."
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "nameEnglish": "Sankhya Yoga",
+    "nameHindi": "सांख्य योग",
+    "translationEnglish": "The Yoga of Knowledge",
+    "translationHindi": "ज्ञान योग",
+    "verseCount": 72,
+    "summary": "Krishna explains the eternal nature of the soul and the principles of karma yoga."
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "nameEnglish": "Karma Yoga",
+    "nameHindi": "कर्म योग",
+    "translationEnglish": "The Yoga of Action",
+    "translationHindi": "कर्म योग",
+    "verseCount": 43,
+    "summary": "The importance of selfless action and fulfilling one's duty without attachment to results."
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "nameEnglish": "Jnana Karma Sanyasa Yoga",
+    "nameHindi": "ज्ञान कर्म संन्यास योग",
+    "translationEnglish": "The Yoga of Wisdom and Renunciation",
+    "translationHindi": "ज्ञान और कर्म का योग",
+    "verseCount": 42,
+    "summary": "Divine incarnations, the purpose of action, and the path to wisdom."
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "nameEnglish": "Karma Sanyasa Yoga",
+    "nameHindi": "कर्म संन्यास योग",
+    "translationEnglish": "The Yoga of Renunciation",
+    "translationHindi": "संन्यास योग",
+    "verseCount": 29,
+    "summary": "Comparison between renunciation and selfless action, both leading to liberation."
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "nameEnglish": "Dhyana Yoga",
+    "nameHindi": "ध्यान योग",
+    "translationEnglish": "The Yoga of Meditation",
+    "translationHindi": "ध्यान योग",
+    "verseCount": 47,
+    "summary": "The practice of meditation, self-control, and the path to inner peace."
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "nameEnglish": "Jnana Vijnana Yoga",
+    "nameHindi": "ज्ञान विज्ञान योग",
+    "translationEnglish": "The Yoga of Knowledge and Wisdom",
+    "translationHindi": "ज्ञान विज्ञान योग",
+    "verseCount": 30,
+    "summary": "Divine knowledge, the nature of God, and different paths to reach Him."
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "nameEnglish": "Aksara Brahma Yoga",
+    "nameHindi": "अक्षर ब्रह्म योग",
+    "translationEnglish": "The Yoga of the Imperishable Brahman",
+    "translationHindi": "अक्षर ब्रह्म योग",
+    "verseCount": 28,
+    "summary": "The imperishable nature of the Supreme, and attaining Him through devotion."
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "nameEnglish": "Raja Vidya Raja Guhya Yoga",
+    "nameHindi": "राज विद्या राज गुह्य योग",
+    "translationEnglish": "The Yoga of Royal Knowledge and Royal Secret",
+    "translationHindi": "राज विद्या योग",
+    "verseCount": 34,
+    "summary": "The supreme secret of devotion and God's infinite grace."
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "nameEnglish": "Vibhuti Yoga",
+    "nameHindi": "विभूति योग",
+    "translationEnglish": "The Yoga of Divine Glories",
+    "translationHindi": "विभूति योग",
+    "verseCount": 42,
+    "summary": "Krishna reveals His divine manifestations throughout creation."
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "nameEnglish": "Visvarupa Darsana Yoga",
+    "nameHindi": "विश्वरूप दर्शन योग",
+    "translationEnglish": "The Yoga of the Universal Form",
+    "translationHindi": "विश्वरूप दर्शन योग",
+    "verseCount": 55,
+    "summary": "Arjuna witnesses Krishna's cosmic universal form."
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "nameEnglish": "Bhakti Yoga",
+    "nameHindi": "भक्ति योग",
+    "translationEnglish": "The Yoga of Devotion",
+    "translationHindi": "भक्ति योग",
+    "verseCount": 20,
+    "summary": "The path of devotion and the qualities of a true devotee."
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "nameEnglish": "Ksetra Ksetrajna Vibhaga Yoga",
+    "nameHindi": "क्षेत्र क्षेत्रज्ञ विभाग योग",
+    "translationEnglish": "The Yoga of the Field and the Knower",
+    "translationHindi": "क्षेत्र क्षेत्रज्ञ योग",
+    "verseCount": 35,
+    "summary": "The distinction between the body (field) and the soul (knower of the field)."
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "nameEnglish": "Gunatraya Vibhaga Yoga",
+    "nameHindi": "गुणत्रय विभाग योग",
+    "translationEnglish": "The Yoga of the Three Gunas",
+    "translationHindi": "गुण विभाग योग",
+    "verseCount": 27,
+    "summary": "The three modes of material nature and how to transcend them."
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "nameEnglish": "Purusottama Yoga",
+    "nameHindi": "पुरुषोत्तम योग",
+    "translationEnglish": "The Yoga of the Supreme Person",
+    "translationHindi": "पुरुषोत्तम योग",
+    "verseCount": 20,
+    "summary": "The Supreme Divine Person beyond the perishable and imperishable."
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "nameEnglish": "Daivasura Sampad Vibhaga Yoga",
+    "nameHindi": "दैवासुर सम्पद विभाग योग",
+    "translationEnglish": "The Yoga of Divine and Demonic Qualities",
+    "translationHindi": "दैवासुर सम्पद योग",
+    "verseCount": 24,
+    "summary": "Divine and demonic qualities and their consequences."
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "nameEnglish": "Sraddhatraya Vibhaga Yoga",
+    "nameHindi": "श्रद्धात्रय विभाग योग",
+    "translationEnglish": "The Yoga of Three Types of Faith",
+    "translationHindi": "श्रद्धात्रय विभाग योग",
+    "verseCount": 28,
+    "summary": "Three types of faith, food, sacrifice, austerity, and charity."
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "nameEnglish": "Moksa Sanyasa Yoga",
+    "nameHindi": "मोक्ष संन्यास योग",
+    "translationEnglish": "The Yoga of Liberation through Renunciation",
+    "translationHindi": "मोक्ष संन्यास योग",
+    "verseCount": 78,
+    "summary": "Final teachings on renunciation, liberation, and surrendering to the Divine."
+  }
+]
