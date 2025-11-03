@@ -31,7 +31,7 @@ const ChapterView = ({ chapterId, onBack }: ChapterViewProps) => {
       setLoading(true);
       try {
         const data = await import(`@/data/verses/chapter${chapterId}.json`);
-        setVerses(data.verses);
+        setVerses(data.default);
         
         // Load last read position
         const lastRead = localStorage.getItem(`gita-chapter-${chapterId}-verse`);
