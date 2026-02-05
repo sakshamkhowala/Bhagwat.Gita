@@ -29,6 +29,39 @@
     <div style="padding: 20px; text-align: center;">Loading Application... (If this stays visible, React failed to
       mount)</div>
   </div>
+
+  <!-- Error Logger -->
+  <script>
+    window.onerror = function (msg, url, line, col, error) {
+      var div = document.createElement("div");
+      div.style.position = "fixed";
+      div.style.top = "0";
+      div.style.left = "0";
+      div.style.width = "100%";
+      div.style.backgroundColor = "red";
+      div.style.color = "white";
+      div.style.padding = "20px";
+      div.style.zIndex = "9999";
+      div.innerHTML = "<h3>Error Caught:</h3>" + msg + "<br/>" + url + ":" + line + ":" + col;
+      document.body.appendChild(div);
+      return false;
+    };
+
+    // Check if main script loaded
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var root = document.getElementById('root');
+        if (root && root.innerHTML.includes('Loading Application')) {
+          var div = document.createElement("div");
+          div.style.border = "2px solid orange";
+          div.style.padding = "10px";
+          div.style.marginTop = "20px";
+          div.innerText = "Timeout: React did not mount. Check if JavaScript is blocked or failed to load.";
+          document.body.appendChild(div);
+        }
+      }, 3000);
+    });
+  </script>
   <script type="module" src="/src/main.tsx"></script>
 </body>
 
