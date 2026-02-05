@@ -30,36 +30,48 @@
       mount)</div>
   </div>
 
-  <!-- Error Logger -->
+  <!-- Advanced Error Logger -->
   <script>
-    window.onerror = function (msg, url, line, col, error) {
+    function logToScreen(msg, type) {
       var div = document.createElement("div");
       div.style.position = "fixed";
       div.style.top = "0";
       div.style.left = "0";
       div.style.width = "100%";
-      div.style.backgroundColor = "red";
+      div.style.backgroundColor = type === 'error' ? "red" : "orange";
       div.style.color = "white";
       div.style.padding = "20px";
       div.style.zIndex = "9999";
-      div.innerHTML = "<h3>Error Caught:</h3>" + msg + "<br/>" + url + ":" + line + ":" + col;
+      div.style.fontFamily = "monospace";
+      div.style.whiteSpace = "pre-wrap";
+      div.innerHTML = "<h3>" + (type === 'error' ? "CRITICAL ERROR" : "WARNING") + ":</h3>" + msg;
       document.body.appendChild(div);
-      return false;
-    };
+    }
 
-    // Check if main script loaded
+    // Capture resource loading errors (like 404s for scripts) - MUST USE CAPTURE=TRUE
+    window.addEventListener('error', function (e) {
+      // If the target is an element (like script/img), it's a load error
+      if (e.target && (e.target.tagName === 'SCRIPT' || e.target.tagName === 'LINK')) {
+        logToScreen("Resource Failed to Load (404/Block): " + (e.target.src || e.target.href), 'error');
+      } else {
+        // Normal runtime error
+        logToScreen(e.message + "\nAt: " + e.filename + ":" + e.lineno, 'error');
+      }
+    }, true); // True = Capture phase
+
+    // Capture unhandled promise rejections
+    window.addEventListener('unhandledrejection', function (e) {
+      logToScreen("Unhandled Promise Rejection: " + (e.reason ? e.reason.toString() : "Unknown"), 'error');
+    });
+
+    // Timeout check
     window.addEventListener('load', function () {
       setTimeout(function () {
         var root = document.getElementById('root');
         if (root && root.innerHTML.includes('Loading Application')) {
-          var div = document.createElement("div");
-          div.style.border = "2px solid orange";
-          div.style.padding = "10px";
-          div.style.marginTop = "20px";
-          div.innerText = "Timeout: React did not mount. Check if JavaScript is blocked or failed to load.";
-          document.body.appendChild(div);
+          logToScreen("Timeout: App failed to Replace 'Loading...'. \nLikely cause: Main script loaded but execution halted silently.", 'warning');
         }
-      }, 3000);
+      }, 4000);
     });
   </script>
   <script type="module" src="/src/main.tsx"></script>
